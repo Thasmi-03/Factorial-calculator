@@ -1,8 +1,8 @@
 body {
   background: linear-gradient(
-    to right,
-    #8a2be2,
-    #ff6347
+    150deg,
+    #5b00b2,
+    #ff6647
   ); /* Gradient background similar to the image */
   display: flex;
   justify-content: center;
@@ -44,6 +44,8 @@ button {
   justify-content: space-around;
   /* margin-top: 25px; */
   margin-left: 75px;
+  width: 200px;
+  height: 30px;
 }
 
 input {
@@ -64,6 +66,7 @@ input {
   padding: 6px;
   margin: 6px;
   font-size: 16px;
+  border-radius: 6px;
 
 }
 
