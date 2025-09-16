@@ -26,30 +26,24 @@ body {
 }
 
 h1 {
-  color: #ff8c00; 
+  color: #da7c0b;
   font-size: 2em;
   margin-bottom: 25px;
   text-align: center;
   font-size: 25px;
 }
 
-
-
 button {
-  background: linear-gradient(
-    to right,
-    #cc570f,
-    #ffa500
-  ); 
+  background: linear-gradient(to right, #cc570f, #ffa500);
   color: #fff;
   border: none;
-  /* padding: 25px ;8 */
   cursor: pointer;
-  border-radius: 8px;
-align-items: center;
+  border-radius: 4px;
+  align-items: center;
   display: flex;
   justify-content: space-around;
-  margin-top: 25px;
+  /* margin-top: 25px; */
+  margin-left: 75px;
 }
 
 input {
@@ -62,17 +56,19 @@ input {
   font-size: 16px;
 }
 #resultNumber {
-  margin-top: 2px;
+  /* margin-top: 2px; */
   font-size: 8px;
   font-weight: bold;
   color: green;
-  background-color: #9f1515;
+  background-color: #3f3333;
+  padding: 6px;
+  margin: 6px;
+  font-size: 16px;
 
-  color: #333;
 }
 
 p {
-  color: rgb(188, 188, 12);
+  color: rgb(226, 226, 9);
   display: flex;
   justify-content: center;
   align-items: center;
